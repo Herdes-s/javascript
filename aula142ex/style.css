@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #008cff;
+    
+    
+}
+
+header {
+
+    text-align: center;
+}
+
+h1 {
+    margin: 30px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+section {
+    background-color: #ffffff;
+    height: 250px;
+    width: 250px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 5px 7px 30px black;
+    
+}
+
+footer {
+    color: aliceblue;
+    margin: 20px 0px;
+    text-align: center;
+}
