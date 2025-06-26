@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De onde voçe é?</title>
+    <style>
+
+        * {
+            margin: 0px;
+        }
+
+        h1 {
+            background-color: #67b8ff;
+            color: white;
+            margin-top: 25px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #67b8ff;
+            padding: 5px;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Você é um estrangeiro?</h1>
+    <h2>descubra já!</h2>
+    <p>Seu país: <input type="text" name="pn1" id="pn1"> <input type="button" value="Enter" onclick="enter()"></p>
+    <div id="res">
+        
+    </div>
+    <script>
+
+        function enter(){
+            var pa = document.querySelector('#pn1')
+            var res = document.querySelector('#res')
+            var pais = (pa.value)
+
+            if (pais === 'Brasil'){
+                res.innerHTML = `<p>Você é um Brasileiro!</p>`
+            } else {
+                res.innerHTML = `<p>Você é um Estrangeiro!</p>`
+            }
+            
+        }
+
+    </script>
+</body>
+</html>

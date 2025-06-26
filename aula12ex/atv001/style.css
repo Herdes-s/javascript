@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(255, 186, 83);
+}
+
+section {
+    background-color: #ffffff;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+}
+
+h1 {
+    font: normal 2em arial;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+div {
+    text-align: center;
+}
+
+footer  {
+    text-align: center;
+    font: normal 1em arial;
+    color: #ffffff;
+    font-style: italic;
+}
