@@ -1,3 +1,5 @@
 function contar () {
-    var res = document.querySelector('div#res')
+    let ini = document.getElementById ('txti')
+    let fim = document.getElementById ('txtf')
+    let passo = document.getElementById ('txtp')
 }
